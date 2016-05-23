@@ -1,0 +1,56 @@
+/*
+selected nav link
+*/
+
+.nav a.selected {
+  color: #fff;
+  border-bottom: thin solid #fff;
+}
+
+
+
+/*
+header background image
+*/
+
+header {
+  background: linear-gradient(#ffa949, transparent 50%),
+              linear-gradient(0deg, #fff, transparent 50%),
+              #ffa949 url('img/background1.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+
+
+/*
+card background
+*/
+
+.card {
+  background-color: lightgray;
+}
+
+
+
+/*
+history photos
+*/
+
+.photos {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  border: 3px solid white;
+  transition: all .5s;
+  display: block;
+  margin: 30px 30px 50px;
+  text-align: center;
+}
+
+.photos:hover {
+  transform: scale(1.2)
+}
+
+
+
+
